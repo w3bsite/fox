@@ -1,0 +1,9 @@
+{
+  "name": "fox",
+  "version": "1.0.0",
+  "description": "get product from another wordpress host",
+  "main": "index.js",
+  "repository": "git@github.com:w3bsite/fox.git",
+  "author": "w3bsite <61429140+w3bsite@users.noreply.github.com>",
+  "license": "MIT"
+}
