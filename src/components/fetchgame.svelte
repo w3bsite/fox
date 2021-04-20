@@ -1,7 +1,8 @@
 <script>
   import { onMount } from "svelte";
   import Gamestag from "./gamestag.svelte";
-  let url = "https://www.dlfox.com/wp-json/wp/v2/posts";
+  let url =
+    "https://sabz.herokuapp.com/https://www.dlfox.com/wp-json/wp/v2/posts";
   let games = [];
 
   onMount(async () => {
