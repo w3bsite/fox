@@ -66,9 +66,9 @@
   }
 </script>
 
-<div class="h5">
+<div class="text">
   قیمت خرید بر روی دیسک
-  <span class=" p-3 border border-info  rounded">
+  <span class=" text-danger">
     {Math.ceil(num / 4) * 8000}
     تومان
   </span>
