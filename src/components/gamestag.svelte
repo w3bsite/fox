@@ -48,20 +48,11 @@
     if (typeof g === "string" && g !== null) {
       let rg = /([٫۰۱۲۳۴۵۶۷۸۹]*) مگابایت|([٫۰۱۲۳۴۵۶۷۸۹]*) گیگابایت/giu;
       let x = rg.exec(g);
-      // console.log(x[0]);
-      // console.log(x[1]);
-      // console.log(x[2]);
+
       console.log(x);
-      let tip = x[1] ? x[1] : x[2] ? x[2] : "I Dont Know";
-      // console.log(tip);
-      // console.log(x[0]);
-      // console.log(x[1][0]);
-      // console.log(typeof x[1][0]);
-      // if (x[1][0] == "۹") {
+      let tip = x[1] ? "۱" : x[2] ? x[2] : "I Dont Know";
 
-      // }
-
-      console.log(tip);
+      console.log("tip=" + tip);
       console.log(typeof tip);
       let f = tip.split("");
       console.log(f);
